@@ -1,0 +1,27 @@
+Embeber formulário do Microsoft forms:
+    - Controlo de sapam
+    - Design manhoso
+
+Google docs
+    - Design original
+    - Sem controlo de spam
+    https://github.com/toperkin/staticFormEmails/blob/master/README.md
+
+Processador de envio
+    - Design original
+    - Custo
+
+    staticForms
+    https://www.staticforms.dev/blog/simple-form-html
+        - 0€ - 250 envios/mês
+        - reCaptcha
+        Starter
+            - 48€/ano
+            - 3000 envios
+
+cloudflare
+    https://github.com/krepysh-spec/contact-form-cloudflare-worker
+
+
+
+https://www.mailgun.com/pricing/ 100 emails/dia
