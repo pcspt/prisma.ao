@@ -388,9 +388,13 @@
   <script type="text/javascript">
     $('#gform').on('submit', function (e) {
       $('#gform *').fadeOut(2000);
+      $('#gform').prepend('</div></div></section>');
       $('#gform').prepend('<p class="lead">O pedido chegou à nossa caixa de entrada. Respondemos no prazo de um dia útil para marcar a primeira conversa.</p>');
       $('#gform').prepend('<h1>Obrigado pelo seu contacto</h1>');
       $('#gform').prepend('<p class="eyebrow" style="color:var(--brand-300)">Pedido recebido</p>');
+      $('#gform').prepend('<div class="page-hero-inner">');
+      $('#gform').prepend('<div class="wrap">');
+      $('#gform').prepend('<section class="page-hero has-photo" style="background-image:url("assets/img/hero-contacto.jpg")">');
     });
   </script>
 
@@ -398,3 +402,4 @@
 </body>
 
 </html>
+
