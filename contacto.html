@@ -41,6 +41,10 @@
 
   <script type="text/javascript">var submitted = false;</script>
 
+
+  <link rel="preconnect" href="https://challenges.cloudflare.com" />
+  <script	src="https://challenges.cloudflare.com/turnstile/v0/api.js"	async	defer></script>
+
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -255,7 +259,11 @@
               obrigatórios.
               Se preferir, escreva directamente para <a href="mailto:geral@prisma.ao">geral@prisma.ao</a>.</p>
           </form>
-        </div>
+
+
+          <div
+	          class="cf-turnstile" data-sitekey="0x4AAAAAAFdx_fdSMLJSAzYp" data-theme="light"	data-size="normal" data-callback="onSuccess"></div>
+          </div>
 
         <div class="reveal">
           <div class="info-block">
