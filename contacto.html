@@ -164,9 +164,20 @@
              enviadas por email para geral@prisma.ao, depois de configurada a
              notificação em Forms > Form notifications (ver guia de publicação).
              ===================================================================== -->
-        <form class="form" name="diagnostico" method="POST"
-              data-netlify="true" data-netlify-honeypot="empresa-alt"
-              action="/obrigado.html">
+
+
+<form class="form" name="diagnostico" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  First name:<br>
+  <input type="text" name="entry.810989529" id="entry.810989529"><br>
+  Last name:<br>
+  <input type="text" name="entry.463380756" id="entry.463380756">
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+        <form class="form" name="diagnostico" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/formResponse?" target="hidden_iframe" onsubmit="submitted=true;"></form>
+        
           <input type="hidden" name="form-name" value="diagnostico">
           <div class="hp" aria-hidden="true">
             <label for="empresa-alt">Não preencher</label>
@@ -176,33 +187,33 @@
           <div class="form-row">
             <div class="field">
               <label for="nome">Nome <span class="req">*</span></label>
-              <input type="text" id="nome" name="nome" required autocomplete="name">
+              <input type="text" id="entry.1162132498" name="entry.1162132498" required autocomplete="name">
             </div>
             <div class="field">
               <label for="empresa">Empresa <span class="req">*</span></label>
-              <input type="text" id="empresa" name="empresa" required autocomplete="organization">
+              <input type="text" id="entry.1847532147" name="entry.1847532147" required autocomplete="organization">
             </div>
           </div>
 
           <div class="form-row">
             <div class="field">
               <label for="funcao">Função</label>
-              <input type="text" id="funcao" name="funcao" autocomplete="organization-title">
+              <input type="text" id="entry.779121392" name="entry.779121392" autocomplete="organization-title">
             </div>
             <div class="field">
               <label for="telefone">Telefone</label>
-              <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="+244">
+              <input type="tel" id="entry.1090692820" name="entry.1090692820" autocomplete="tel" placeholder="+244">
             </div>
           </div>
 
           <div class="field">
             <label for="email">Email <span class="req">*</span></label>
-            <input type="email" id="email" name="email" required autocomplete="email">
+            <input type="email" id="entry.843845432" name="entry.843845432" required autocomplete="email">
           </div>
 
           <div class="field">
-            <label for="assunto">Assunto</label>
-            <select id="assunto" name="assunto">
+            <label for="entry.587597933">Assunto</label>
+            <select id="entry.587597933" name="entry.587597933">
               <option>Estruturação ou arranque de um negócio</option>
               <option>Transformação operacional e melhoria contínua</option>
               <option>Estudo de viabilidade ou avaliação de empresa</option>
@@ -213,8 +224,8 @@
           </div>
 
           <div class="field">
-            <label for="mensagem">O que precisa de resolver <span class="req">*</span></label>
-            <textarea id="mensagem" name="mensagem" required placeholder="Descreva a situação em poucas linhas. Quanto mais concreto, mais útil será a primeira conversa."></textarea>
+            <label for="entry.693548451">O que precisa de resolver <span class="req">*</span></label>
+            <textarea id="entry.693548451" name="entry.693548451" required placeholder="Descreva a situação em poucas linhas. Quanto mais concreto, mais útil será a primeira conversa."></textarea>
           </div>
 
           <label class="consent">
