@@ -188,70 +188,72 @@
 
           <form class="form" name="gform" id="gform" enctype="text/plain"
             action="https://docs.google.com/forms/d/e/1FAIpQLScGpFCe7wkoiF7v147iop1Wpcoa13_LyLEtp5hMqq7_O_YIOw/formResponse?"
-            target="hidden_iframe" onsubmit="submitted=true;"></form>
+            target="hidden_iframe" onsubmit="submitted=true;">
 
-          <input type="hidden" name="form-name" value="gform">
-          <div class="hp" aria-hidden="true">
-            <label for="empresa-alt">Não preencher</label>
-            <input type="text" id="empresa-alt" name="empresa-alt" tabindex="-1" autocomplete="off">
-          </div>
-
-          <div class="form-row">
-            <div class="field">
-              <label for="nome">Nome <span class="req">*</span></label>
-              <input type="text" id="entry.1162132498" name="entry.1162132498" required autocomplete="name">
+            <input type="hidden" name="form-name" value="gform">
+            <div class="hp" aria-hidden="true">
+              <label for="empresa-alt">Não preencher</label>
+              <input type="text" id="empresa-alt" name="empresa-alt" tabindex="-1" autocomplete="off">
             </div>
-            <div class="field">
-              <label for="empresa">Empresa <span class="req">*</span></label>
-              <input type="text" id="entry.1847532147" name="entry.1847532147" required autocomplete="organization">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="nome">Nome <span class="req">*</span></label>
+                <input type="text" id="entry.1162132498" name="entry.1162132498" required autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="empresa">Empresa <span class="req">*</span></label>
+                <input type="text" id="entry.1847532147" name="entry.1847532147" required autocomplete="organization">
+              </div>
             </div>
-          </div>
 
-          <div class="form-row">
-            <div class="field">
-              <label for="funcao">Função</label>
-              <input type="text" id="entry.779121392" name="entry.779121392" autocomplete="organization-title">
+            <div class="form-row">
+              <div class="field">
+                <label for="funcao">Função</label>
+                <input type="text" id="entry.779121392" name="entry.779121392" autocomplete="organization-title">
+              </div>
+              <div class="field">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="entry.1090692820" name="entry.1090692820" autocomplete="tel" placeholder="+244">
+              </div>
             </div>
+
             <div class="field">
-              <label for="telefone">Telefone</label>
-              <input type="tel" id="entry.1090692820" name="entry.1090692820" autocomplete="tel" placeholder="+244">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="entry.843845432" name="entry.843845432" required autocomplete="email">
             </div>
-          </div>
 
-          <div class="field">
-            <label for="email">Email <span class="req">*</span></label>
-            <input type="email" id="entry.843845432" name="entry.843845432" required autocomplete="email">
-          </div>
+            <div class="field">
+              <label for="entry.587597933">Assunto</label>
+              <select id="entry.587597933" name="entry.587597933">
+                <option>Estruturação ou arranque de um negócio</option>
+                <option>Transformação operacional e melhoria contínua</option>
+                <option>Estudo de viabilidade ou avaliação de empresa</option>
+                <option>Software à medida e automação</option>
+                <option>Certificação ISO 9001</option>
+                <option>Outro assunto</option>
+              </select>
+            </div>
 
-          <div class="field">
-            <label for="entry.587597933">Assunto</label>
-            <select id="entry.587597933" name="entry.587597933">
-              <option>Estruturação ou arranque de um negócio</option>
-              <option>Transformação operacional e melhoria contínua</option>
-              <option>Estudo de viabilidade ou avaliação de empresa</option>
-              <option>Software à medida e automação</option>
-              <option>Certificação ISO 9001</option>
-              <option>Outro assunto</option>
-            </select>
-          </div>
+            <div class="field">
+              <label for="entry.693548451">O que precisa de resolver <span class="req">*</span></label>
+              <textarea id="entry.693548451" name="entry.693548451" required
+                placeholder="Descreva a situação em poucas linhas. Quanto mais concreto, mais útil será a primeira conversa."></textarea>
+            </div>
 
-          <div class="field">
-            <label for="entry.693548451">O que precisa de resolver <span class="req">*</span></label>
-            <textarea id="entry.693548451" name="entry.693548451" required
-              placeholder="Descreva a situação em poucas linhas. Quanto mais concreto, mais útil será a primeira conversa."></textarea>
-          </div>
+            <label class="consent">
+              <input type="checkbox" name="consentimento" required>
+              <span>Autorizo a Prisma a tratar os dados aqui indicados para efeitos de resposta a este pedido, nos
+                termos
+                da <a href="politica-privacidade.html">política de privacidade</a>.</span>
+            </label>
 
-          <label class="consent">
-            <input type="checkbox" name="consentimento" required>
-            <span>Autorizo a Prisma a tratar os dados aqui indicados para efeitos de resposta a este pedido, nos termos
-              da <a href="politica-privacidade.html">política de privacidade</a>.</span>
-          </label>
-
-          <div>
-            <input class="btn btn-primary" type="submit">Enviar pedido</input>
-          </div>
-          <p class="form-note">Os campos assinalados com <span style="color:var(--brand-500)">*</span> são obrigatórios.
-            Se preferir, escreva directamente para <a href="mailto:geral@prisma.ao">geral@prisma.ao</a>.</p>
+            <div>
+              <input class="btn btn-primary" type="submit">Enviar pedido</input>
+            </div>
+            <p class="form-note">Os campos assinalados com <span style="color:var(--brand-500)">*</span> são
+              obrigatórios.
+              Se preferir, escreva directamente para <a href="mailto:geral@prisma.ao">geral@prisma.ao</a>.</p>
           </form>
         </div>
 
